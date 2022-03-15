@@ -20,7 +20,10 @@ class Main {
         System.out.println(a*b);
         break;
       case 4:
-        System.out.println(a/b);
+        if (!(b==0))
+          System.out.println(a/b);
+        else 
+          System.out.println("dzielenie przez zero!!!");
         break;
       default:
         break;
